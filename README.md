@@ -1,4 +1,4 @@
-# HeatHack-Sessions
+# HeatHack-Tech-Guide
 Instructions for how to use the home-build thermal monitors given out as part of HeatHack's structured programme for groups to think about what net zero means for their traditionally-built community buildings .
 
 Written in Jupyter Book.
