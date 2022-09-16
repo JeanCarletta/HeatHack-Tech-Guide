@@ -10,7 +10,7 @@ If your premises don't have wifi, you only have a sensor unit. It saves the data
 :align: center
 ```
 
-Every time you turn the sensor unit on, it starts a temporary wifi hotspot (also called an "access point") that can be used only to retrieve the data and start the sensor unit running.   You connect to it just like any other wifi network, but it can't be used to reach the internet.  When you connect, the sensor unit gets the right time 
+Every time you turn the sensor unit on, it starts a temporary wifi hotspot (an "access point") that can be used only to retrieve the data and start the sensor unit running.   You connect to it just like any other wifi network, but it can't be used to reach the internet.  When you connect, the sensor unit gets the right time 
 automatically and will let you choose some options like describing where you are putting the unit.  
 
 Try connecting to the sensor unit at home first, with these instructions showing on a different phone or laptop if you have one - it will be much easier to follow along and then your phone will remember some of the steps.  
