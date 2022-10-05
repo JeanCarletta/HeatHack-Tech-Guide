@@ -27,6 +27,9 @@ It can be hard to remember where you put the sensor unit - one easy way is to ta
 
 ````
 
-If you have more than one space you want to monitor, you can move your sensor unit around.  Collect at least two weeks of representative data from each.  It's helpful to do this in all four seasons, but you won't be able to do that during the course of the supported programme.  For the programme itself, you want to get really good data for the space you will discuss during session 3 when it's properly cold out.
-
 If you have an internet-connected monitor, the hub just needs to be plugged in somewhere close enough to the sensor unit that the radio can reach it.  If you are struggling with this, try pointing them in the same direction using the arrows on the box.
+
+If you have more than one space you want to monitor, you can move your sensor unit around.  Collect at least two weeks of representative data from each.  It's helpful to do this in all four seasons, but you won't be able to do that during the course of the supported programme.  For the programme itself, you want to get really good data when it's properly code out for the space you will discuss during session 3.  For your own purposes, if you move the sensor unit, you'll want to record where it was when.  You can do this using our template.  Don't forget that when you move the sensor unit, if you have an internet-connected monitor you may also need to move the hub.
+
+- [Thermal monitoring location diary template](https://docs.google.com/spreadsheets/d/1Lb59luV7bnODQef9KC9vKmHjVDsIbQYyRfcX4VaVAA4/edit?usp=sharing)
+
