@@ -12,3 +12,9 @@ At least once a week, we copy the data to Github for better plotting and so that
 - [Data Download page](https://github.com/JeanCarletta/HeatHack-Data/tree/main/deviceData)
 
 **20221005 - we have noticed a problem with the Data Download, please bear with us while we sort that.**
+
+There are a couple of pieces of information that can be useful along with the data - if you move your sensor around, a diary of its location, plus a diary of building use.  You can keep this data any way you like, but we aim to provide plots that show these against the data in future.  For these, we would use these templates.
+
+- [Building use diary template](https://docs.google.com/spreadsheets/d/1_3UwlKGqtnaVQqrsQDyNMr6MdldH_sSLpiHTBwC7AbQ/edit?usp=sharing)
+- [Thermal monitor location diary template](https://docs.google.com/spreadsheets/d/1Lb59luV7bnODQef9KC9vKmHjVDsIbQYyRfcX4VaVAA4/edit?usp=sharing)
+
