@@ -4,14 +4,12 @@ If you have an internet-connected monitor and want to know if it is currently se
 
 - [ThingSpeak feeds](https://uk.mathworks.com/matlabcentral/profile/authors/15201195?detail=thingspeak)
 
-At least once a week, we copy the data to Github for better plotting and so that you can have easy access to download it for plotting in Excel if you wish.  Again, you need your venue number, this time to choose it from the dropdown list.  The download files are labelled by sensor "MAC address".  You can find the MAC adddress that corresponds to your venue in the venue keys file.
+At least once a week, we copy the data to Github for better plotting and so that you can have easy access to download it for plotting in Excel if you wish.  Again, you need your venue number, this time to choose it from the dropdown list.  The download files are labelled by venue id and sensor MAC address, a unique long number for each device that also shows up on the ThingSpeak feeds.  You shouldn't need it, but you can find out which MAC adddress matches which venue number in the venue keys file.
 
 
 - [HeatHack Data Book](https://jeancarletta.github.io/HeatHack-Data/intro.html)
-- [Venue Keys](https://github.com/JeanCarletta/HeatHack-Data/blob/main/venue-keys.csv)
 - [Data Download page](https://github.com/JeanCarletta/HeatHack-Data/tree/main/deviceData)
-
-**20221005 - we have noticed a problem with the Data Download, please bear with us while we sort that.**
+- [Venue Keys](https://github.com/JeanCarletta/HeatHack-Data/blob/main/venue-keys.csv)
 
 There are a couple of pieces of information that can be useful along with the data - if you move your sensor around, a diary of its location, plus a diary of building use.  You can keep this data any way you like, but we aim to provide plots that show these against the data in future.  For these, we would use these templates.
 
