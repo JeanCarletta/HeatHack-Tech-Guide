@@ -22,7 +22,6 @@ You will get a notification that a file has been downloaded. Try to open it.  Yo
 The correct file is named "datalog.csv", possibly followed by a number if you've downloaded data before.  You always want the most recent one.  This is usually the one with the highest number.
  Select the correct file by holding your finger on it, and then choose "Share" and the icon of the email app you want to use.  Gmail, Mail, and Outlook are common email apps. This will start composing an email message with the data file already attached.  Send the email to  **data@heathack.org**. 
 
- <!-- If your phone did open the data file, you should be able to share it using the menus at the top of the screen.  The icon for finding this option often looks like three dots. -->
 
 If you can't find the option to share the file with us by email, you can open your email, start a message to us, and attach it to the message.  The file will be wherever your internet downloads go.
 
@@ -38,6 +37,6 @@ the file. Press "share"
 - Select the app that you use for your emails. This will open a new
 email with the file attached. Send this email to data@heathack.org
 
->
+-->
 
 We hope to process these emails automatically - please don't include any other information in the email.  If you need a human's attention, email help@heathack.org.
