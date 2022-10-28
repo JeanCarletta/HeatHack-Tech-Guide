@@ -10,5 +10,7 @@ You should now see the hub's interface.  Choose "Configure Wifi", and choose the
 
 Some venues deliberately hide the wifi network - in this case you can type in its name (SSID).  You may be able to look up the name using a phone you have used on the wifi before or find it on the back of the router. 
 
-If after you save the password, heathack disappears from your list of connections, the hub is now successfully connected to the internet.   Otherwise you may have entered the wrong password - please try again.  
+```{admonition} Important - heathackhub will disappear
+If after you save the password, heathackhub disappears from your list of connections, the hub is probably  successfully connected to the internet.   Do the next steps and check the readings are coming in.  If they aren't, you may have entered the wrong password and need to try again.
+``` 
 
