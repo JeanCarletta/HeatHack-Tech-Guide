@@ -19,7 +19,7 @@ Try connecting to the sensor unit at home first, with these instructions showing
 ```{admonition} Overview for technophiles
 
 * turn the sensor box off for ten seconds, then on again  
-* connect to the "engineer" wifi hotspot using the password printed on the box
+* connect to the "engineer" wifi hotspot using the password "heathack"
 * visit 192.168.4.1 using your browser 
 * describe where you are placing the sensor
 * download the data (which also starts the device)
