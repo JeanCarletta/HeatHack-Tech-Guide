@@ -1,6 +1,10 @@
 # Batteries
 
+We are not allowed to ship batteries to you through the post.
+
 The sensor unit uses AA **lithium** batteries.  They are available, for instance, from Energizer.  This is the kind of battery used in things like smoke alarms. They are the same size and shape as ordinary alkaline AA batteries, but should last a year.
+
+They are available from Argos, which appears to have a tie-in with Sainsbury's.  Energizer is the most common brand.  Most engineers are sourcing them online.  Don't forget you can charge them on expenses.
 
 ```{admonition} Important
 
