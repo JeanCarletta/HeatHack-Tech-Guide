@@ -15,4 +15,4 @@ CK says the code is unnecessary, we will use MAC address as a key.
 
 When you press "download data and start", your phone will download a file containing the data and then start logging.  You have four minutes to do this but the battery will last longer if you are faster.
 
- 
+ **Please use "download and start" even if you have no data to download and only wish to start the sensor recording.** The sensor will record data when it is turned on even if you don't, but it won't get the correct date and time.

@@ -1,6 +1,6 @@
 # Instructions for internet-connected version
 
-You have two boxes - a sensor unit and a hub.  The sensor unit is usually white and the hub is usually black. 
+You have two boxes - a sensor unit and a hub.  The hub is usually black and always has a micro-USB socket on it.  The sensor unit could be white or black and has a small white plastic component sticking out on one side. 
 
 The sensor unit takes the temperature and relative humidity readings and sends them to the hub using a radio link.  The hub then uploads the data to the internet.  To make this work, you need to tell the hub the password for the guest wifi network in your building.
 
@@ -26,11 +26,11 @@ The sensor unit is battery-powered, but the hub has to be plugged using a phone 
 ```{admonition} Overview for technophiles
 
 1.	Plug in the hub
-2.	Connect your phone/tablet/laptop to the open heathack wifi hotspot
+2.	Connect your phone/tablet/laptop to the open heathackhub wifi hotspot
 3.	Visit 192.168.4.1 using your browser
 4.	Enter the SSID and password for the venue's guest wifi network 
 5.  Turn on the sensor unit and check for a blue flashing light on the hub showing the radio connection is working
-5.	Visit your thingspeak.com URL to see data coming in
+5.	Visit your thingspeak.com URL to see data coming in (after some delay)
 ```
 
 <!-- Colin's preferred version 

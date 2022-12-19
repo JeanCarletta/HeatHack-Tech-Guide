@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Connect to the hub &#8212; Technology Guide</title>
+    <title>Using two monitors at once &#8212; Technology Guide</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -52,8 +52,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Configure the hub" href="use-hub-gui.html" />
-    <link rel="prev" title="Connect to the wifi hotspot" href="heathackhub-network.html" />
+    <link rel="next" title="Instructions for standalone version" href="../no-wifi-version.html" />
+    <link rel="prev" title="Check the connection" href="check-connection.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -144,8 +144,8 @@ const thebe_selector_output = ".output, .cell_output"
      Connect to the wifi hotspot
     </a>
    </li>
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
+   <li class="toctree-l2">
+    <a class="reference internal" href="connect-to-hub.html">
      Connect to the hub
     </a>
    </li>
@@ -164,8 +164,8 @@ const thebe_selector_output = ".output, .cell_output"
      Check the connection
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="using-two-monitors.html">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      Using two monitors at once
     </a>
    </li>
@@ -286,7 +286,7 @@ title="Fullscreen mode"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../_sources/wifi-sequence/connect-to-hub.md"
+        <a href="../_sources/wifi-sequence/using-two-monitors.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -335,7 +335,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Connect to the hub</h1>
+                <h1>Using two monitors at once</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -347,15 +347,20 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="connect-to-the-hub">
-<h1>Connect to the hub<a class="headerlink" href="#connect-to-the-hub" title="Permalink to this headline">#</a></h1>
-<a class="bg-primary mb-1 reference internal image-reference" href="../_images/connect-to-hub.png"><img alt="open settings" class="bg-primary mb-1 align-center" src="../_images/connect-to-hub.png" style="width: 400px;" /></a>
-<p>Open your web browser and type 192.168.4.1 into the address bar at the top.  Chrome, Safari, Firefox, Samsung Internet and Microsoft Edge are all web browsers.</p>
-<p>Searching on 192.168.4.1 won’t work, but sometimes it’s hard to tell when a browser will treat something as an address and when it will treat it as a search term. If you can’t figure it out, let us know.</p>
-<div class="admonition-common-error-message admonition">
-<p class="admonition-title">Common error message</p>
-<p>Some web browsers like Safari require secure communication by default.  Others give you the option to require it.  Our monitor isn’t powerful enough to communicate securely.  If you get an error message about HTTP, HTTPS, or security, you will need to change your settings temporarily to allow HTTP connections while you set up the hub.</p>
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="using-two-monitors-at-once">
+<h1>Using two monitors at once<a class="headerlink" href="#using-two-monitors-at-once" title="Permalink to this headline">#</a></h1>
+<p>Some venues are able to build a second monitor or borrow one from another venue.   If you want to use two at the same time to send readings to the internet, there is a snag - the hub can’t tell which sensor is which, so all the readings end up on the same ThingSpeak feed.  So far we have been able to separate the two sets of readings but it does take extra human effort, and we can’t guarantee our technique will work in every circumstance.  <strong>If you do this, please try to start the second sensor around 90 seconds after the first and ask us if you want us to do the separation.</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://jeancarletta.github.io/HeatHack-Extras/venue-10-reasoning.html">How Separation Works</a></p></li>
+</ul>
+<p>A surer method is to convert the monitors to work in stand-alone mode.  Then you can use as many monitors as you can get.  You will then have to pick up the readings manually.  Read the stand-alone section of the guide and contact us if you wish to do this.   We don’t have step-by-step instructions yet for this, but  for the tech-minded:</p>
+<ul class="simple">
+<li><p>power-cycle the sensor unit</p></li>
+<li><p>connect to the engineer wifi access point (password “heathack”)</p></li>
+<li><p>visit http://192.168.4.1/extra</p></li>
+<li><p>first button lets you switch to Memory, then click on Submit.</p></li>
+</ul>
+<p>After this, the steps are as in the stand-alone section, but you are already connected to the sensor’s “engineer” wifi access point and just need to enter a location and start it recording by pressing Download and Start.  Do not omit the last step as this also copies the correct time from your phone to the sensor.</p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -385,17 +390,17 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="heathackhub-network.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="check-connection.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Connect to the wifi hotspot</p>
+            <p class="prev-next-title">Check the connection</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="use-hub-gui.html" title="next page">
+    <a class='right-next' id="next-link" href="../no-wifi-version.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Configure the hub</p>
+        <p class="prev-next-title">Instructions for standalone version</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

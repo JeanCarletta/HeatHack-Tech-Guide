@@ -164,6 +164,11 @@ const thebe_selector_output = ".output, .cell_output"
      Check the connection
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="wifi-sequence/using-two-monitors.html">
+     Using two monitors at once
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
@@ -344,7 +349,7 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="instructions-for-internet-connected-version">
 <h1>Instructions for internet-connected version<a class="headerlink" href="#instructions-for-internet-connected-version" title="Permalink to this headline">#</a></h1>
-<p>You have two boxes - a sensor unit and a hub.  The sensor unit is usually white and the hub is usually black.</p>
+<p>You have two boxes - a sensor unit and a hub.  The hub is usually black and always has a micro-USB socket on it.  The sensor unit could be white or black and has a small white plastic component sticking out on one side.</p>
 <p>The sensor unit takes the temperature and relative humidity readings and sends them to the hub using a radio link.  The hub then uploads the data to the internet.  To make this work, you need to tell the hub the password for the guest wifi network in your building.</p>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/sensor-unit-and-hub.jpg"><img alt="sensor unit and hub" class="bg-primary mb-1 align-center" src="_images/sensor-unit-and-hub.jpg" style="width: 400px;" /></a>
 <p>The sensor unit is battery-powered, but the hub has to be plugged using a phone charger.  It uses the older style “micro-USB” connectors like for older Android phones.  Many people have old chargers from previous phones.  If you don’t have one with the right connector, but do have one where the cable detaches, micro-USB cables are cheap.</p>
@@ -354,11 +359,11 @@ title="Print to PDF"
 <p class="admonition-title">Overview for technophiles</p>
 <ol class="simple">
 <li><p>Plug in the hub</p></li>
-<li><p>Connect your phone/tablet/laptop to the open heathack wifi hotspot</p></li>
+<li><p>Connect your phone/tablet/laptop to the open heathackhub wifi hotspot</p></li>
 <li><p>Visit 192.168.4.1 using your browser</p></li>
 <li><p>Enter the SSID and password for the venue’s guest wifi network</p></li>
 <li><p>Turn on the sensor unit and check for a blue flashing light on the hub showing the radio connection is working</p></li>
-<li><p>Visit your thingspeak.com URL to see data coming in</p></li>
+<li><p>Visit your thingspeak.com URL to see data coming in (after some delay)</p></li>
 </ol>
 </div>
 <!-- Colin's preferred version 

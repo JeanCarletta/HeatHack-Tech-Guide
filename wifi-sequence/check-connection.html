@@ -52,7 +52,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Instructions for standalone version" href="../no-wifi-version.html" />
+    <link rel="next" title="Using two monitors at once" href="using-two-monitors.html" />
     <link rel="prev" title="Turn on sensor unit" href="turn-on-sensor-unit.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -162,6 +162,11 @@ const thebe_selector_output = ".output, .cell_output"
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
      Check the connection
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="using-two-monitors.html">
+     Using two monitors at once
     </a>
    </li>
   </ul>
@@ -345,9 +350,9 @@ title="Print to PDF"
   <section class="tex2jax_ignore mathjax_ignore" id="check-the-connection">
 <h1>Check the connection<a class="headerlink" href="#check-the-connection" title="Permalink to this headline">#</a></h1>
 <a class="bg-primary mb-1 reference internal image-reference" href="../_images/thingspeak-graph.png"><img alt="a very basic thingspeak graph" class="bg-primary mb-1 align-center" src="../_images/thingspeak-graph.png" style="width: 400px;" /></a>
-<p>To check that the hub is working, connect to the guest wifi network and use your browser to go to the thingspeak.com address printed on your box.</p>
+<p>To check that the hub is working, connect to the internet the way you ordinariliy would and use your browser to go to the thingspeak.com address printed on your box.</p>
 <p>You will see three very basic graphs.  These are just to see if it’s working.  We provide other ones for working with the data.</p>
-<p>You will get a fake voltage reading of 1 every time you power cycle the hub.  This is how to tell whether you’re connected.</p>
+<p>You will get a fake voltage reading of 1 every time you power cycle the hub.  This is just so we can tell whether it has connected successfully to the internet.</p>
 <p>If the sensor unit is working, when you power cycle the sensor unit you will also see a sequence of rapid temperature readings.  If they aren’t sensible, the most likely cause is low battery voltage.  The ideal voltage is 3.3V.  The sensor can tolerate the range 3-3.5V.  We are having issues with our voltage readings and they are only approximate, so if you need to test the actual battery voltage, use a multimeter.</p>
 <p>If you don’t see any readings at all, the most likely problem is that the sensor unit is too far from the hub, although it could also be a completely dead battery or a damage to the sensor unit.</p>
 <p>Once they are working,if anyone turns the sensor unit or hub off, they will start working again when you turn them back on.  You may wish to leave a note at the power socket, as cleaners often turn hubs off and stick them in the lost and found.</p>
@@ -387,10 +392,10 @@ title="Print to PDF"
             <p class="prev-next-title">Turn on sensor unit</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="../no-wifi-version.html" title="next page">
+    <a class='right-next' id="next-link" href="using-two-monitors.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Instructions for standalone version</p>
+        <p class="prev-next-title">Using two monitors at once</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
