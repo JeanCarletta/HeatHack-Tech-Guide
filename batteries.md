@@ -8,7 +8,7 @@ They are available from Argos, which appears to have a tie-in with Sainsbury's. 
 
 ```{admonition} Important
 
-It is possible to use alkaline batteries, but their performance will be variable, lasting something between a week and a month.  NiMH rechargeable batteries will not supply a high enough voltage to the sensor.  
+NiMH rechargeable batteries will not supply a high enough voltage to the sensor.  It is possible to use alkaline batteries, but we don't think they'll last more than a month and the relative humidity readings will become inaccurate when the voltage drops too far. 
 
 ```
 
