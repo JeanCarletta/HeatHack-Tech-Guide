@@ -1,6 +1,6 @@
 # Instructions for internet-connected version
 
-You have two boxes - a sensor unit and a hub.  The hub is usually black and always has a micro-USB socket on it.  The sensor unit could be white or black and has a small white plastic component sticking out on one side. 
+You have two boxes - a sensor unit and a hub.  The sensor unit could be white or black and has a small white plastic component sticking out on one side. The hub is usually black and smaller than the sensor unit, and it always has a micro-USB socket on it.  If you can't see a socket, try opening the case as it may have shifted away from the corresponding hole. 
 
 The sensor unit takes the temperature and relative humidity readings and sends them to the hub using a radio link.  The hub then uploads the data to the internet.  To make this work, you need to tell the hub the password for the guest wifi network in your building.
 
@@ -12,7 +12,7 @@ The sensor unit takes the temperature and relative humidity readings and sends t
 ```
 
 
-The sensor unit is battery-powered, but the hub has to be plugged using a phone charger.  It uses the older style "micro-USB" connectors like for older Android phones.  Many people have old chargers from previous phones.  If you don't have one with the right connector, but do have one where the cable detaches, micro-USB cables are cheap.  
+The sensor unit is battery-powered, but the hub has to be powered from an electrical or USB socket.  It uses the older style "micro-USB" connectors like for older Android phones.  We don't supply them because they would greatly increase our postage costs and most people have old chargers from previous phones.  If you don't have an old charger with the right connector, but do have one where the cable detaches, micro-USB cables are cheap and easy to find. 
 
 ```{image} ./images/micro_usb_connector.jpg 
 :alt: Micro USB connector
