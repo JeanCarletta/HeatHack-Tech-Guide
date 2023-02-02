@@ -8,7 +8,7 @@
 :align: center
 ```
 
-Open your web browser and type “192.168.4.1” into the address bar at the top.  You might have a separate "search" bar.  Using that won't work.  Chrome, Safari, Firefox, Samsung Internet and Microsoft Edge are all web browsers.
+Open your web browser and type “192.168.4.1” into the address bar at the top.  You might have a separate "search" bar.  Using that won't work.  Chrome, Safari, Firefox, Samsung Internet and Microsoft Edge are all web browsers.  This will only work when you are connected to the engineer wifi access point.  If your web browser gives you a set of web searches, you aren't connected. 
 
 
 ```{admonition} Common error message
