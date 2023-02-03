@@ -10,7 +10,7 @@ To convert it, you turn on the *sensor unit* (with the white checkerboard  senso
 
 - [192.168.4.1/extra - this link will only work for a few minutes when the sensor unit is first turned on](http://192.168.4.1/extra)
 
-There's a radio button to switch to Memory - leave everything else as it is and click Submit.  From here it will take you to the main setup screen where you can proceed as in the standalone guide. 
+There's a radio button to switch to Memory - leave everything else as it is and click Submit.  From here it will take you to the main setup screen where you can proceed as in the standalone guide. Before you press "Download and Start", please check that the temperature reading looks sensible.  It might be a bit high because you've been handling it, but in the right ballpark.  If it looks wrong, go back to http://192.168.4.1/extra and make sure DHT22 is selected. 
 
 ```{admonition} Important Note
 

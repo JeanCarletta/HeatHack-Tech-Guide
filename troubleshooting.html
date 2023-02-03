@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>HeatHack-Tech-Guide &#8212; Technology Guide</title>
+    <title>Troubleshooting &#8212; Technology Guide</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -52,6 +52,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Accessing the thermal monitoring data" href="accessing-data.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -111,7 +112,7 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="placing-the-sensor.html">
    Where to put the sensor unit
@@ -216,8 +217,8 @@ const thebe_selector_output = ".output, .cell_output"
    Accessing the thermal monitoring data
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="troubleshooting.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Troubleshooting
   </a>
  </li>
@@ -294,7 +295,7 @@ title="Fullscreen mode"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="_sources/README.md"
+        <a href="_sources/troubleshooting.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -343,7 +344,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>HeatHack-Tech-Guide</h1>
+                <h1>Troubleshooting</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -355,28 +356,12 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="heathack-tech-guide">
-<h1>HeatHack-Tech-Guide<a class="headerlink" href="#heathack-tech-guide" title="Permalink to this headline">#</a></h1>
-<p>Instructions for how to use the home-build thermal monitors given out as part of HeatHack’s structured programme for groups to think about what net zero means for their traditionally-built community buildings .</p>
-<p>Written in Jupyter Book.</p>
-<p>Intended workflow (Simplified GitFlow with developers working on one branch):</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>      dev         - author materials here; there isn&#39;t much chance we&#39;ll conflict but push often
-       |
-       |
-       |
-      main        -  when materials are ready to build into website, copy that part into main (see below).
-       |
-       |
-       |
-    gh-pages      - complete derivative branch produced automatically, do not edit; contains website
-</pre></div>
-</div>
-<p>If we end up with conflicts (unlikely) then we can use feature branches, merging them into dev and then into main.</p>
-<p>To copy a part into main, make sure dev on the origin is up to date.  Then switch to the main branch.</p>
-<p>(main)$ git checkout origin/dev – path-to-part
-(main)$ git checkout origin/dev – _toc.yml      # to get the table of contents changes</p>
-<p>then add, commit, push as usual.  Once all parts are ready for building main will become more like a traditional main branch but until then, many commits on dev could remain unpulled.</p>
-<p>There is a table of contents at the top level covering everything, but also individual table of contents for use during development that just build individual sections.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="troubleshooting">
+<h1>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this headline">#</a></h1>
+<ul class="simple">
+<li><p><strong>Temperature looks wrong.</strong> Turn the sensor unit off and on, connect to the engineer network, and then visit http://192.168.4.1/extra.  Make sure DHT22 is selected.  If the sensor only reads a little warm, that may be because you’ve been handling it.</p></li>
+<li><p><strong>Turning hub on and off doesn’t start the heathackhub network.</strong> Probably you’ve already successfully entered your wifi network’s SSID and password, so your hub is connecting to the internet.  If you want to change to a different wifi network, you need to move out of range of the current one first.  You may be able to visit your router admin page to see if you can spot the hub on your network; turning the hub off and on will make it appear and disappear.  You can also look for a 1 in field 3 (usually labelled “Voltage”) on your ThingSpeak feed.  Otherwise, a dodgy power connection is the most likely cause; turn the hub off and on and look for a single blue flash.</p></li>
+</ul>
 </section>
 
     <script type="text/x-thebe-config">
@@ -406,6 +391,13 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="accessing-data.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Accessing the thermal monitoring data</p>
+        </div>
+    </a>
 </div>
             </footer>
         </div>
