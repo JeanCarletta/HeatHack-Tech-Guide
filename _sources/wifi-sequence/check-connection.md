@@ -12,7 +12,7 @@ To check that the hub is working, connect to the internet the way you ordinarili
 
 You will see three very basic graphs.  These are just to see if it's working.  We provide other ones for working with the data.  
 
-You will get a fake voltage reading of 1 every time you power cycle the hub.  This is just so we can tell whether it has connected successfully to the internet.
+You will get a fake voltage reading of 1 every time you power cycle the hub.  This is just so we can tell whether it has connected successfully to the internet.  In later models instead of 1 you will see a voltage reading.
 
 If the sensor unit is working, when you power cycle the sensor unit you will also see a sequence of rapid temperature readings.  If they aren't sensible, the most likely cause is low battery voltage.  The ideal voltage is 3.3V.  The sensor can tolerate the range 3-3.5V.  We are having issues with our voltage readings and they are only approximate, so if you need to test the actual battery voltage, use a multimeter.
 

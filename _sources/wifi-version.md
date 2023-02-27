@@ -29,8 +29,9 @@ The sensor unit is battery-powered, but the hub has to be powered from an electr
 2.	Connect your phone/tablet/laptop to the open heathackhub wifi hotspot
 3.	Visit 192.168.4.1 using your browser
 4.	Enter the SSID and password for the venue's guest wifi network 
-5.  Turn on the sensor unit and check for a blue flashing light on the hub showing the radio connection is working
-5.	Visit your thingspeak.com URL to see data coming in (after some delay)
+5.  Look on your Thingspeak feed to see that field 3 (sometimes labelled "Voltage" or "Voltage or 1") has a recent value in it - this could take a minute or two
+6.  Turn on the sensor unit and check for a blue flashing light on the hub showing the radio connection is working
+7.	Check Thingspeak again to see data coming in - this can be after a delay
 ```
 
 <!-- Colin's preferred version 
