@@ -12,4 +12,4 @@
  
  On a phone or tablet, then find your wifi settings. You can access them through the settings icon (a gear) on your home screen or by searching.
 
-In larger spaces, the radio works best if the arrow on the outside of the sensor unit points towards the hub.
+

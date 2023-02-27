@@ -23,6 +23,7 @@ chapters:
     - file: no-wifi-sequence/step3
     - file: no-wifi-sequence/step4
     - file: no-wifi-sequence/step5
+    - file: no-wifi-sequence/bug-in-early-models
 - file: conversion
 - file: accessing-data
 - file: troubleshooting
