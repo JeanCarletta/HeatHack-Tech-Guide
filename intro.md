@@ -1,25 +1,40 @@
 # Technology Guide
 
-We will send you devices you can use to collect temperature and relative humidity data for your spaces.  
+Temperature monitoring is very useful for understanding whether poor control of the heating is leading to wasted energy. If energy is being wasted, the thermal monitoring will give strong clues about how to stop that happening.  It is useful for monitoring to include relative humidity in older buildings, buildings that are not in high occupation, ones where there are questions about how much ventilation is needed, and modern buildings that have older people in them for longer periods, since under some circumstances these can be dry enough to be detrimental to their health.    For venues that are planning building changes, providing professionals with temperature and relative humidity readings will help them give better advice than they can without it.  
 
-If your venue does not have wifi, you have one box, a sensor unit.  You will need to put it somewhere representative of the space and then connect to it every week or two to download and send us the data.
+At minimum, your goal should be to get at least two weeks of data in each of your major spaces during the heating season, preferably when it is reasonably cold.  Two weeks in each season is even better, especially if you are uncertain which energy efficiency controls your heating should have.  Although it may seem silly to monitor the building in summer when the heating is off, overheating in summer is increasingly a problem in the UK.  A surprising number of venues find that there is heating being used in high summer and can use the monitoring to reason about why that is and what they can do to reduce energy use and still serve their occupant's needs.  
 
-If your venue has wifi then you will have two boxes:  a sensor unit and a base station or "hub" that will take readings from the sensor and send them to us automatically.  The sensor unit has to be somewhere that reflects how people will feel in a space, but the hub just needs to be plugged in within radio range of the sensor unit.
+::::{grid} 1 1 1 2 
+:gutter: 2
 
-```{image} ./images/Sensor2WiFiBoxed-1024x768.jpg
-:alt: sensor unit
+:::{grid-item-card}  Home-built thermal monitor 
+```{image} /images/v3/bare-monitor.jpg
+:alt: 
 :class: bg-primary mb-1
-:width: 400px
+:height: 200px
 :align: center
 ```
+:::
 
-
-
-We built our own cheap devices because it helps to get the readings instantly on line - which we can do for venues with wifi. However, it's perfectly possible to follow along on our materials without our devices, using a commercial logger.  They cost around £50 for temperature or £70 for temperature with relative humidity.  They just save the data on the device and let you plug them into a computer, usually using USB, to download them. There are sometimes cheaper unknown brands available.  We've never tested their accuracy.   If you use one it is best to check them against something with known good readings to make sure.
-
-```{admonition} Tip
-:class: tip
-
-In the web version of this guide, click on the images to see them bigger.  Then use the back button to return to reading.  In other formats, you can zoom in and out. 
-
+:::{grid-item-card} Commercial logger
+```{image} /images/commercial-logger.jpg 
+:alt: 
+:class: bg-primary mb-1
+:height: 200px
+:align: center
 ```
+:::
+::::
+
+
+It's easy to buy commercial data loggers.  The most common model costs around £50 for temperature or £70 for temperature with relative humidity and saves the data on a USB stick that you can access using some simple computer software that they provide.  However if you wish to have several devices, devices that will send data to the internet, or devices with very high accuracy, the costs soon escalate.  This is why we have developed internet-capable monitors that electronics hobbyists can build using £5 worth of parts.  Our monitors can send data to the internet if the building has wifi available. The accuracy of the temperature readings on our monitors is in line with common commercial loggers.  Relative humidity is hard for anyone to measure accurately so our accuracy is harder to assess.  We think there are a bit more variable than commercial loggers but in practice, sufficient for the programme's needs.  If you don't have wifi, our monitor's sense of time is also not as good as a commercial logger but if you follow our instructions readings shouldn't never be out by more than around 5 minutes, and most will be much closer to the right time than that.
+
+This guide explains how to use our monitors, which will require you to have a smartphone, tablet, or laptop you can take to the venue.  Groups that are comfortable using usb sticks but not with using smartphones and wifi connections might still prefer to use a commercial logger if they can afford one.  The choice is up to you.
+
+
+If you are part of our supported Royal Academy of Engineering programme, we will offer to send you a free monitor you can use to collect temperature and relative humidity data for your spaces. 
+
+
+
+
+

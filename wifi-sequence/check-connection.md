@@ -1,7 +1,7 @@
 # Check the connection
 
 
-```{image} thingspeak-graph.png
+```{image}  /wifi-sequence/thingspeak-graph.png
 :alt: a very basic thingspeak graph
 :class: bg-primary mb-1
 :width: 400px

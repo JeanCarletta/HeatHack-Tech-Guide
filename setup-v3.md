@@ -1,0 +1,1 @@
+# Setting up a v3 monitor

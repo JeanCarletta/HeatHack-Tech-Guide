@@ -1,6 +1,6 @@
 ## Find your wifi settings
 
-```{image} find-wifi-settings.png
+```{image} /images/find-wifi-settings.png
 :alt: common steps to find wifi settings on an android phone
 :class: bg-primary mb-1
 :width: 400px
