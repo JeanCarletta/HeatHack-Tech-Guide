@@ -1,4 +1,4 @@
-# Instructions for internet-connected version
+# Using hub to send to internet
 
 You have two boxes - a sensor unit and a hub.  The sensor unit could be white or black and has a small white plastic component sticking out on one side. The hub is usually black and smaller than the sensor unit, and it always has a micro-USB socket on it.  If you can't see a socket, try opening the case as it may have shifted away from the corresponding hole. 
 

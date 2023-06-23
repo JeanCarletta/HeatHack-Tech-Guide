@@ -1,7 +1,7 @@
 # Connect the hub to the internet
 
 
-```{image} ../no-wifi-sequence/find-wifi-settings.png
+```{image} /images/find-wifi-settings.png
 :alt: Connect 
 :class: bg-primary mb-1
 :width: 400px
