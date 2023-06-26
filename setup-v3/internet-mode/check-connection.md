@@ -30,7 +30,7 @@ Check for data by using your web browser's address bar to visit the thingspeak a
 
 Your ThingSpeak page might look a bit different as we have to set up each one by hand and don't always remember.
 
-The page has read-out of the most recent temperature received along with how long ago ThingSpeak received it.  If you have only just turned the monitor off and on, this should be recent.  It can sometimes take a while for the readings to appear so be patient. We are clarifying the delay with the service provider.
+The page has read-out of the most recent temperature received along with how long ago ThingSpeak received it.  If you have only just turned the monitor off and on, this should be recent.  The website usually shows the reading within a minute or two.  Occasionally there are long delays.  We are asking the service provider about them.  
 
 
 If you don't see recent data on ThingSpeak, you probably entered the wrong password and will need to try again.

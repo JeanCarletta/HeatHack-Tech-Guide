@@ -7,49 +7,47 @@ chapters:
 - file: placing-the-sensor
 - file: batteries
 - file: which-model
+- file: choose-mode
+- file: what-it-does
 - file: access-monitor
   sections:
-    - file: access/find-wifi-settings
-    - file: access/turn-monitor-on
-    - file: access/connect-to-monitor
-    - file: access/load-interface
+  - file: access/find-wifi-settings
+  - file: access/turn-monitor-on
+  - file: access/connect-to-monitor
+  - file: access/load-interface
 - file: setup-v3
   sections:
-    - file: setup-v3/set-the-mode
-    - file: setup-v3/internet-mode
-      sections: 
-        - file: setup-v3/internet-mode/what-it-does
-        - file: setup-v3/internet-mode/connect-to-building-wifi
-        - file: setup-v3/internet-mode/check-connection
-    - file: setup-v3/save-mode
-      sections:
-        - file: setup-v3/save-mode/setup-screen
-        - file: setup-v3/save-mode/finding-the-datafile
-        - file: setup-v3/save-mode/sending-us-the-data
-
-- file: accessing-data
-
-- file: making-monitors
-
+  - file: setup-v3/set-the-mode
+  - file: setup-v3/internet-mode
+    sections: 
+      - file: setup-v3/internet-mode/connect-to-building-wifi
+      - file: setup-v3/internet-mode/check-connection
+  - file: setup-v3/save-mode
+    sections:
+      - file: setup-v3/save-mode/setup-screen
+      - file: setup-v3/save-mode/finding-the-datafile
+      - file: setup-v3/save-mode/sending-us-the-data
 - file: vs-1-and-2
   sections:
     - file: wifi-version
       sections:
-        - file: wifi-sequence/connect-base-station
-        - file: wifi-sequence/heathackhub-network
-        - file: wifi-sequence/connect-to-hub
-        - file: wifi-sequence/use-hub-gui
-        - file: wifi-sequence/turn-on-sensor-unit
-        - file: wifi-sequence/check-connection
-        - file: wifi-sequence/using-two-monitors
+      - file: wifi-sequence/connect-base-station
+      - file: wifi-sequence/heathackhub-network
+      - file: wifi-sequence/connect-to-hub
+      - file: wifi-sequence/use-hub-gui
+      - file: wifi-sequence/turn-on-sensor-unit
+      - file: wifi-sequence/check-connection
 
     - file: no-wifi-version
       sections: 
-        - file: no-wifi-sequence/step1
-        - file: no-wifi-sequence/step2
-        - file: no-wifi-sequence/step3
-        - file: no-wifi-sequence/step4
-        - file: no-wifi-sequence/step5
-        - file: no-wifi-sequence/bug-in-early-models
+      - file: no-wifi-sequence/step1
+      - file: no-wifi-sequence/step2
+      - file: no-wifi-sequence/step3
+      - file: no-wifi-sequence/step4
+      - file: no-wifi-sequence/step5
+      - file: no-wifi-sequence/bug-in-early-models
     - file: conversion
     - file: troubleshooting
+- file: accessing-data
+- file: using-two-monitors
+- file: making-monitors

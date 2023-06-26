@@ -1,4 +1,4 @@
-## Find your wifi settings
+# Find your wifi settings
 
 ```{image} /images/find-wifi-settings.png
 :alt: common steps to find wifi settings on an android phone
