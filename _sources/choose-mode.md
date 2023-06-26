@@ -8,7 +8,7 @@ Before you start, you must decide which mode to use for your thermal monitor.
 :::{grid-item-card} In internet mode
 
 
-The monitor uses the wifi in the building to send readings automatically to a website.  Choose this option if you have wifi that can be accessed by entering a network name (SSID) and password and if it covers the location where you are placing the monitor.  To set up the monitor you'll need to enter the network information, but after that you can just leave the monitor alone.  
+The monitor uses the wifi in the building to send readings automatically to a website.  Choose this option if you have wifi that can be accessed by entering a network name (SSID) and password and if it covers the location where you are placing the monitor.  To set up the monitor you'll need to enter the network information, but after that you can just leave the monitor alone.  This mode requires good wifi signal strength - if your wifi signal is poor or intermittent, choose "save" mode.
 
 :::
 :::{grid-item-card} In save mode

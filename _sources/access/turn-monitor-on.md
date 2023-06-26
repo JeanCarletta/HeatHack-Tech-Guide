@@ -32,6 +32,6 @@ Only one person at a time should try to connect to the monitor.   If you have tr
 ```{admonition} Tip
 :class: tip
 
-The on-off switch isn't very robust.  If you are in any doubt about whether your switch works or whether your batteries are still OK, slide the lid off the box.  You may need to remove a small Philips screw to do this.  Turn the device off, wait 10 seconds, and turn it on again.  You should be able to see a blue LED flash.
+If you are in any doubt about whether your batteries are still OK, look for a hole in the box.  Turn the device off, wait 10 seconds, and turn it on again.  You should be able to see a blue LED flash through the hole.  If the on-off switch breaks, you may need a replacement.  It might work to stop and start the monitor by removing and reinserting a battery, but the monitors don't always start up nicely if you do this.  
 
 ```

@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Setting up units sent April 2023 and after &#8212; Technology Guide</title>
+    <title>Using two monitors at once &#8212; Technology Guide</title>
   
   
   
@@ -61,9 +61,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'v3';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'using-two-monitors';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Making thermal monitors yourself" href="making-monitors.html" />
+    <link rel="prev" title="Accessing the thermal monitoring data" href="accessing-data.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -154,10 +156,12 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="placing-the-sensor.html">Where to put the sensor unit</a></li>
 <li class="toctree-l1"><a class="reference internal" href="batteries.html">Batteries</a></li>
 <li class="toctree-l1"><a class="reference internal" href="which-model.html">Which model do I have?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="choose-mode.html">Internet versus save mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="what-it-does.html">What the monitor does</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="access-monitor.html">Accessing the monitor</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="access/find-wifi-settings.html">Find your device’s wifi settings</a></li>
 <li class="toctree-l2"><a class="reference internal" href="access/turn-monitor-on.html">Turn on the monitor</a></li>
@@ -168,7 +172,6 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1 has-children"><a class="reference internal" href="setup-v3.html">Setting up a v3 monitor</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="setup-v3/set-the-mode.html">Setting the mode</a></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="setup-v3/internet-mode.html">Configuring in internet mode</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="setup-v3/internet-mode/what-it-does.html">What the monitor does</a></li>
 <li class="toctree-l3"><a class="reference internal" href="setup-v3/internet-mode/connect-to-building-wifi.html">Connecting monitor to the building’s wifi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="setup-v3/internet-mode/check-connection.html">Check for data</a></li>
 </ul>
@@ -181,8 +184,6 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="accessing-data.html">Accessing the thermal monitoring data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="making-monitors.html">Making thermal monitors yourself</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="vs-1-and-2.html">Setting up earlier versions</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2 has-children"><a class="reference internal" href="wifi-version.html">Using hub to send to internet</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="wifi-sequence/connect-base-station.html">Connect the hub to the internet</a></li>
@@ -191,7 +192,6 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l3"><a class="reference internal" href="wifi-sequence/use-hub-gui.html">Configure the hub</a></li>
 <li class="toctree-l3"><a class="reference internal" href="wifi-sequence/turn-on-sensor-unit.html">Turn on sensor unit</a></li>
 <li class="toctree-l3"><a class="reference internal" href="wifi-sequence/check-connection.html">Check the connection</a></li>
-<li class="toctree-l3"><a class="reference internal" href="wifi-sequence/using-two-monitors.html">Using two monitors at once</a></li>
 </ul>
 </li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="no-wifi-version.html">Instructions for standalone version</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
@@ -207,6 +207,9 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="accessing-data.html">Accessing the thermal monitoring data</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Using two monitors at once</a></li>
+<li class="toctree-l1"><a class="reference internal" href="making-monitors.html">Making thermal monitors yourself</a></li>
 </ul>
 
     </div>
@@ -261,7 +264,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/v3.md" target="_blank"
+      <li><a href="_sources/using-two-monitors.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -341,7 +344,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Setting up units sent April 2023 and after</h1>
+    <h1>Using two monitors at once</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -355,10 +358,20 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section id="setting-up-units-sent-april-2023-and-after">
-<h1>Setting up units sent April 2023 and after<a class="headerlink" href="#setting-up-units-sent-april-2023-and-after" title="Permalink to this heading">#</a></h1>
-<p>In April 2023 we started posting out units that are easy to switch between standalone and internet-connected operation and that are always just in one, battery-operated piece with no need for a power socket.  We refer to these units as “v3” (version 3).</p>
-<p>It may be that in a few cases we will ship out v1 or v2 units after this date.  In this case, we will tell you that you have an earlier version.</p>
+  <section id="using-two-monitors-at-once">
+<h1>Using two monitors at once<a class="headerlink" href="#using-two-monitors-at-once" title="Permalink to this heading">#</a></h1>
+<p>Some venues are able to build a second monitor or borrow one from another venue.  With version 3 monitors, there’s no problem - they will all connect to the internet independently.</p>
+<p>With earlier monitors, if you run them both in internet mode, all the readings end up on one ThingSpeak feed.  Please instead run one of the monitors in “save” (standalone) mode.  The process for setting this up is very like the version 3 instructions but you have to visit a hidden webpage:</p>
+<ul class="simple">
+<li><p>power-cycle the sensor unit</p></li>
+<li><p>connect to the engineer wifi access point (password “heathack”)</p></li>
+<li><p>visit http://192.168.4.1/extra</p></li>
+<li><p>first button lets you switch to Memory, then click on Submit.</p></li>
+</ul>
+<p>If you do get two sets of readings tangled let us know - we may be able to separate them for you.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://jeancarletta.github.io/HeatHack-Extras/venue-10-reasoning.html">How Separation Works</a></p></li>
+</ul>
 </section>
 
     <script type="text/x-thebe-config">
@@ -392,6 +405,24 @@ document.write(`
   
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="accessing-data.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Accessing the thermal monitoring data</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="making-monitors.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Making thermal monitors yourself</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div></div>
   
 </div>

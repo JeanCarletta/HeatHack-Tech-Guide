@@ -1,7 +1,7 @@
 # Accessing the monitor
 
 
-You must follow these instructions to access the screens that will let you set up the monitor.   The internet address printed on the monitor is **not** part of the set up procedure.
+You must follow these instructions to access the screens that will let you set up the monitor.   The internet address printed on the monitor is for seeing if it works, **not** part of the set up procedure.
 
 ```{admonition} Tip
 :class: Tip

@@ -1,8 +1,8 @@
 # Sending us the data
 
-On a laptop, you can start an email to us and add the data file as an attachment.  This can be trickier to do on a file or laptop.  If
+On a laptop, you can start an email to us and add the data file as an attachment. 
 
-Once you find the file, you can start an email to us and add the data file as an attachment.  On a phone or a tablet there is often an easier way - when you get the notification that the file has downloaded, there will often be some way to "share" it with us.  Here are some icons that might be used to mean "share". 
+This is also possible on other devices, but it can be tricky to find the file. There is often an easier way - when you get the notification that the file has downloaded, there should be an option to "share" it.  Here are some icons that might be used to mean "share". 
 
 
 ::::{grid} 1 1 1 2 

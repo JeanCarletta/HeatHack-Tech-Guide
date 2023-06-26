@@ -64,7 +64,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'setup-v3/save-mode/sending-us-the-data';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Accessing the thermal monitoring data" href="../../accessing-data.html" />
+    <link rel="next" title="Setting up earlier versions" href="../../vs-1-and-2.html" />
     <link rel="prev" title="Finding your downloaded data" href="finding-the-datafile.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -160,6 +160,8 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="../../placing-the-sensor.html">Where to put the sensor unit</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../batteries.html">Batteries</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../which-model.html">Which model do I have?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../choose-mode.html">Internet versus save mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../what-it-does.html">What the monitor does</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../access-monitor.html">Accessing the monitor</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../access/find-wifi-settings.html">Find your device’s wifi settings</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../access/turn-monitor-on.html">Turn on the monitor</a></li>
@@ -170,7 +172,6 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="../../setup-v3.html">Setting up a v3 monitor</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../set-the-mode.html">Setting the mode</a></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../internet-mode.html">Configuring in internet mode</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="../internet-mode/what-it-does.html">What the monitor does</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../internet-mode/connect-to-building-wifi.html">Connecting monitor to the building’s wifi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../internet-mode/check-connection.html">Check for data</a></li>
 </ul>
@@ -183,8 +184,6 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../accessing-data.html">Accessing the thermal monitoring data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../making-monitors.html">Making thermal monitors yourself</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../vs-1-and-2.html">Setting up earlier versions</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../../wifi-version.html">Using hub to send to internet</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../wifi-sequence/connect-base-station.html">Connect the hub to the internet</a></li>
@@ -193,7 +192,6 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l3"><a class="reference internal" href="../../wifi-sequence/use-hub-gui.html">Configure the hub</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../wifi-sequence/turn-on-sensor-unit.html">Turn on sensor unit</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../wifi-sequence/check-connection.html">Check the connection</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../wifi-sequence/using-two-monitors.html">Using two monitors at once</a></li>
 </ul>
 </li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../../no-wifi-version.html">Instructions for standalone version</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
@@ -209,6 +207,9 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="../../troubleshooting.html">Troubleshooting</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../../accessing-data.html">Accessing the thermal monitoring data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../using-two-monitors.html">Using two monitors at once</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../making-monitors.html">Making thermal monitors yourself</a></li>
 </ul>
 
     </div>
@@ -359,8 +360,8 @@ document.write(`
                   
   <section id="sending-us-the-data">
 <h1>Sending us the data<a class="headerlink" href="#sending-us-the-data" title="Permalink to this heading">#</a></h1>
-<p>On a laptop, you can start an email to us and add the data file as an attachment.  This can be trickier to do on a file or laptop.  If</p>
-<p>Once you find the file, you can start an email to us and add the data file as an attachment.  On a phone or a tablet there is often an easier way - when you get the notification that the file has downloaded, there will often be some way to “share” it with us.  Here are some icons that might be used to mean “share”.</p>
+<p>On a laptop, you can start an email to us and add the data file as an attachment.</p>
+<p>This is also possible on other devices, but it can be tricky to find the file. There is often an easier way - when you get the notification that the file has downloaded, there should be an option to “share” it.  Here are some icons that might be used to mean “share”.</p>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-1 sd-row-cols-lg-2 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2 docutils">
 <div class="sd-col sd-d-flex-row docutils">
@@ -429,11 +430,11 @@ Typical Android icon for sharing </div>
       </div>
     </a>
     <a class="right-next"
-       href="../../accessing-data.html"
+       href="../../vs-1-and-2.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Accessing the thermal monitoring data</p>
+        <p class="prev-next-title">Setting up earlier versions</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
