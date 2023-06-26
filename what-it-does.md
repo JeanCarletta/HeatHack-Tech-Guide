@@ -15,7 +15,7 @@ Once you have set it up, the monitor will take temperature and relative humidity
 
 You can re-check whether a monitor is still working at any time by turning it off, waiting 10 seconds, and turning it on again.  The monitor will wait for a minute to see if you want to connect to heathack-s but after that restart using the wifi connection details you entered when you set it up. 
 
-ThingSpeak do not guarantee timely arrival of the data but batch updates usually complete within a minute.  We have noticed the occasional glitch that results in timestamps being later than they should be.  It doesn't appear to happen often, but if you notice it, do tell us as ThingSpeak are interested in our experiences. On the data, there will be a gap and 1 or 6 hours later, more data readings than usual, possibly with temperature jumping up and down quickly.
+ThingSpeak do not guarantee timely arrival of the data but batch updates usually complete within a minute.  We have noticed rare very long delays, over an hour.  The timestamps will be correct when they do eventually arrive.  
 
 Versions 1 and 2 are similar but all readings are sent to the internet immediately.
 
