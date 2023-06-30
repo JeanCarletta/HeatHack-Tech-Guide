@@ -1,6 +1,6 @@
 # Connecting monitor to the building's wifi
 
-The heathack-s hotspot will now shut down and you have to do the same thing again, but this time choosing the heathack-i wifi hotspot. This hot spot does not require a password. From this point, you have one minute to complete your setup before the monitor goes to sleep to save its battery.
+The heathack-s hotspot will now shut down and you have to do the same thing again, but this time choosing the heathack-i wifi hotspot. This hot spot does not require a password. From this point, you have two minutes to complete your setup before the monitor goes to sleep to save its battery.
 
 
 Use your browser to visit https://192.168.4.1 again.  Choose "Configure Wifi" and find wifi network that you wish to use to connect the monitor to the internet.   If you don't see the one you want, refresh the list by choosing "Scan".  Depending on the wifi you have, Then enter the wifi password and choose "Save".  
