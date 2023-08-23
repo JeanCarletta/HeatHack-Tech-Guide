@@ -32,7 +32,7 @@ We are working on instructions for making our thermal monitors.  Here are some p
 :align: center
 ```
 
-The build requires a rigid battery box with an on-off switch designed for 4 AA batteries, a small amount of solid core wire, an ESP12F microcontroller, a DHT22 temperature and relative humidity sensor, and cork or another spacing material.  
+The build requires a rigid battery box with an on-off switch designed for 4 AA batteries, a small amount of solid core wire, a little double-sided tape, an ESP12F microcontroller, a DHT22 temperature and relative humidity sensor, and cork or another spacing material.  
 The required tools are a fine tipped soldering iron and soldering supplies, a small screwdriver, and a pair of tin snips or a Stanley knife.
 
 The steps are:
