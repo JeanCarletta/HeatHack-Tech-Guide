@@ -39,19 +39,19 @@ The steps are:
 
 - flash the ESP12F with software.  This requires purchase of a matching "burner board".  The software will be open source but for now, contact us if you want to try this.
 
-- solder the wires onto the ESP12F.  The order of soldering joins is not particularly important on this build. :TODO: it's not clear when to solder the DHT11 to the other components.  I think we connect to the DHT11, and then to the battery box last.
+- solder the wires onto the ESP12F.  The order of soldering joins is not particularly important on this build. You might want to test the ESP12F and battery connection are working before attaching the DHT22, but if you do, remember to turn off the device and remove the batteries before soldering in the DHT22. 
 
-- open the battery box and use the screwdriver to pop the removable plate off the wiring of the battery box and move the wires over.  :TODO: make clear exactly how this is done.  Does it take desoldering?
+- open the battery box and use the screwdriver to pop the removable plate off the wiring of the battery box and move the wires over. 
 
-- drill hole in the box where the ESP12F LED will shine through when it is turned on :TODO:  how do you get this location correct?  Draw around the ESPF12 with marker pen or etch it, and then remove so it doesn't get damaged by the drill?
+- drill hole in the box where the ESP12F LED will shine through when it is turned on.  It's hard to get the hole in exactly the right spot.  Whatever you do, take the lid off the box before using the drill to avoid damaging the ESP12F.  
 
 - cut the right sized space in the side of the battery box on both halves
 
-- cut the divider between two adjacent spaces for batteries so that the ESP12F will fit.  :TODO:  which 2?  Not the middle 2.  The left 2, or the right 2, with the wires/plate at the top?
+- cut the divider between two adjacent spaces for batteries so that the ESP12F will fit. 
 
 - use double-sided tape to stick the ESP12F into position in the battery box.
 
-- cut a cork spacer and glue it in to keep components in place.  :TODO: what else gets glued?
+- cut a cork spacer and glue it in to keep components in place. 
 
 Most of the battery consumption for our monitors is from keeping up a wifi connection.  This takes 100mA with spikes up to 200mA - 400mA. Each set of batch readings takes 4 seconds of wifi up time, and there are 14 batches sent a day. If we assume the batteries combined are 2200mAh, that should be around 20 hours of wifi service.  With the other power needs of the monitor, we're hoping for a year of service from each pair of batteries.
 
