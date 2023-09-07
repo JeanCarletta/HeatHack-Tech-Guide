@@ -1,5 +1,13 @@
 # Technology Guide
 
+```{admonition} This is old
+
+We have moved this technology guide into the main HeatHack Guide Book to make our programme less confusing.  Please use that version as it is better written.
+
+- [HeatHack Guide Book - section about our monitors](https://jeancarletta.github.io/HeatHack-Sessions/our-monitors.html)
+
+```
+
 Temperature monitoring is very useful for understanding whether poor control of the heating is leading to wasted energy. If energy is being wasted, the thermal monitoring will give strong clues about how to stop that happening.  It is useful for monitoring to include relative humidity in older buildings, buildings that are not in high occupation, ones where there are questions about how much ventilation is needed, and modern buildings that have older people in them for longer periods, since under some circumstances these can be dry enough to be detrimental to their health.    For venues that are planning building changes, providing professionals with temperature and relative humidity readings will help them give better advice than they can without it.  
 
 At minimum, your goal should be to get at least two weeks of data in each of your major spaces during the heating season, preferably when it is reasonably cold.  Two weeks in each season is even better, especially if you are uncertain which energy efficiency controls your heating should have.  Although it may seem silly to monitor the building in summer when the heating is off, overheating in summer is increasingly a problem in the UK.  A surprising number of venues find that there is heating being used in high summer and can use the monitoring to reason about why that is and what they can do to reduce energy use and still serve their occupant's needs.  
